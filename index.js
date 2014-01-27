@@ -1,5 +1,5 @@
-	var block =    document.getElementById('popup'),
-		blockMsg = document.getElementById('popup').innerHTML,
+	var block =    document.getElementsByClassName('popup')[0],
+		blockMsg = document.getElementsByClassName('popup')[0].innerHTML,
 		urlStr, 
 		i,
 		buttonOk = document.getElementsByClassName('buttonOk'),
