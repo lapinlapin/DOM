@@ -2,8 +2,6 @@
 		blockMsg = document.getElementsByClassName('popup')[0].innerHTML,
 		urlStr, 
 		i,
-		buttonOk = document.getElementsByClassName('buttonOk'),
-		buttonNo = document.getElementsByClassName('buttonCancel'),
 		url;
 
 	document.getElementsByClassName('header__links')[0].onclick = function(e) {
